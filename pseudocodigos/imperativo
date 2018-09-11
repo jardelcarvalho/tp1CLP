@@ -1,0 +1,14 @@
+Termo_Fibonacci (n):
+    r <- 0
+    s <- 1
+    Para N = n até N = 1 faça:
+        t <- s
+        s <- s + r
+        r <- t
+    Fim Para
+    termo <- s
+
+
+
+#
+    Complexidade O(n)

@@ -1,0 +1,14 @@
+Termo_Fibonacci (n, r, s):
+    Se n = 1 então:
+        Retorne s
+    Senão:
+        Retorne Termo_Fibonacci (n - 1, s, r + s)
+    Fim Se
+
+Calcula_Termo_Fibonacci (n):
+    p <- 1
+    termo <- Termo_Fibonacci (n, 0, p)
+
+
+#
+    Complexidade O(n)

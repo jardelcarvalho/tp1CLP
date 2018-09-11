@@ -1,0 +1,12 @@
+Termo_Fibonacci (n):
+    Se n = 0 então:
+        Retorne 0
+    Senão Se n = 1 então:
+        Retorne 1
+    Senão:
+        Retorne Termo_Fibonacci (n - 1) + Termo_Fibonacci (n - 2)
+    Fim Se
+
+
+#
+    Complexidade O(Ø ^ n)
